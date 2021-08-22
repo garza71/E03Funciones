@@ -1,21 +1,12 @@
 def tarjetas(pliegos,plumones):
-    
-    tarjetasPliegos = pliegos*12
-    tarjetasPlumones = plumones*35
-
-    if tarjetasPliegos<=tarjetasPlumones:
-        return tarjetasPliegos
-    else:
-        return tarjetasPlumones
+    #Realiza los cáculos para obtener el numero maximo de tarjetas que se pueden hacer
 
 def main():
     #escribe tu código abajo de esta línea
-    pli = int(input("Dame la cantidad de pliegos de papel albanene: "))
-    plu = int(input("Dame la cantidad de plumones: "))
-
-    r = tarjetas(pli,plu)
-
-    print("El número máximo de tarjetas que se pueden hacer es:",r)
+    #Lee la cantidad de pliegos de papel: ("Dame la cantidad de pliegos de papel albanene: ")
+    #Lee la cantidad de plumones: ("Dame la cantidad de plumones: ")
+    #Haz  la llamada a la función tarjetas
+    #Imprime el resultado: ("El numero maximo de tarjetas que se pueden hacer es:")
 
 if __name__=='__main__':
     main()
