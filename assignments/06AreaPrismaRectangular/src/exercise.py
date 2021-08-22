@@ -13,7 +13,7 @@ def main():
     #Lee la profundidad : ("Dame la profundidad: "))
     #Haz la llamada a la función area e imprime el resultado
     #Haz la llamada a la función area_prisma e imprime el resultado
-    #("El área total del prisma es:")
+    #("El area total del prisma es:")
 
 
 if __name__=='__main__':
